@@ -48,6 +48,8 @@ and many more shell.
 
 **Step 3>** Write these three lines and give permission to the file with `chmod u+x first-script.sh` command.
 
+**Step 4>** Execute the script file `./first-script.sh`.
+
 ![1.2](./../Asset/1.2.png)
 
 ##### Line 1 -> `#!/bin/bash`
