@@ -7,7 +7,7 @@
 - **Acronym**: BASH stands for _"Bourne Again Shell"_.
 - **Created by**: Bash is a shell program developed by Brian Fox as an upgraded version of the Bourne Shell ('sh'). It is part of the open-source GNU project.
 - **Enhancements**: Bash offers functional improvements over the Bourne Shell, including features such as command line editing, key bindings, and an unlimited command history.
-- **Shell Script**: Users can combine commands in a series within a file, known as a Shell Script, which Bash can read and execute
+- **Shell Script**: Users can combine commands in a series within a file, known as a Shell Script, which Bash can read and execute.
 - **Default Login Shell**: Bash is the default login shell for most Linux distributions and Apple's macOS.
 
 ### [1.1.2 Bash vs. Other Shells](#112-bash-vs-other-shells)
