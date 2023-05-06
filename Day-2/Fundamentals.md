@@ -23,4 +23,38 @@ Bash _doesn't require_ explicit data type declarations; it determines the data t
 - Variable names are case-sensitive, so `myVar` and `myvar` are treated as different variables.
 - Variables declared outside of functions are global and inside a function are local.
 
-### [2.1.2 String Variables]()
+### [2.1.2 String Variables](#212-string-variables)
+
+#### 1. Concatenation
+
+Concatenates `str1` and `str2` with a space in between.
+
+```bash
+str1="Hello"
+str2="World"
+result="$str1 $str2"
+```
+
+#### 2. Length
+
+To find the length of a string, use the `${#variable_name}` syntax.
+
+```bash
+str="Bash"
+length=${#str}
+```
+
+Stores the length of the string `"Bash"` in the variable `"length"`.
+
+#### 3. Extraction
+
+To extract a substring, you can use `${variable_name:start: length}` syntax.
+
+```bash
+str="Hello, World"
+substring="${str:7:5}"
+```
+
+Extracts `"World"` from the string.
+
+## [2.1.3 Numeric Variables]()
