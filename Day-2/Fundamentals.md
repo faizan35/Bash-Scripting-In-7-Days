@@ -57,4 +57,20 @@ substring="${str:7:5}"
 
 Extracts `"World"` from the string.
 
-## [2.1.3 Numeric Variables]()
+## [2.1.3 Numeric Variables](#213-numeric-variables)
+
+Performing basic arithmetic operations in Bash:
+
+##### Addition, Subtraction, multiplication, and division:
+
+```bash
+num1=5
+num2=3
+
+sum=$((num1 + num2))
+sub=$((num1 - num2))
+mul=$((num1 * num2))
+div=$((num1 / num2))
+```
+
+## [2.2 Input and Output](#22-input-and-output)
