@@ -79,3 +79,5 @@ and many more shell.
 ##### Line 3 -> `echo "Hello World!"`
 
 - `echo` is the command to print.
+
+← Previous Day || [Index](../README.md) || [Next Day →](../Day-2/Fundamentals.md)
