@@ -1,0 +1,33 @@
+### String Variables
+
+#### 1. Concatenation
+
+Concatenates `str1` and `str2` with a space in between.
+
+```bash
+str1="Hello"
+str2="World"
+result="$str1 $str2"
+```
+
+#### 2. Length
+
+To find the length of a string, use the `${#variable_name}` syntax.
+
+```bash
+str="Bash"
+length=${#str}
+```
+
+Stores the length of the string `"Bash"` in the variable `"length"`.
+
+#### 3. Extraction
+
+To extract a substring, you can use `${variable_name:start: length}` syntax.
+
+```bash
+str="Hello, World"
+substring="${str:7:5}"
+```
+
+Extracts `"World"` from the string.
